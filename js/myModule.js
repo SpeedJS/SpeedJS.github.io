@@ -1,5 +1,5 @@
 var who = 'world';
 
 exports.hello = function() {
-	console.log('Hello '+who+'!');
+	document.write('Hello '+who+'!');
 }
