@@ -1,5 +1,5 @@
 (function() {
-  
+
   var $ = function (selector) {
     return new init(selector);
   };
@@ -29,7 +29,7 @@
     val = typeof val !== 'undefined' ? val : null;
     switch(typeof(prop)){
       case 'object':
-        $(this.selector).each(function() {
+        this.each(function() {
           for(var i in prop) {
             if(typeof(i) === 'string') {
               this.style[i] = prop[i];
@@ -38,7 +38,7 @@
         });
         break;
       case 'string':
-        $(this.selector).each(function() {
+        this.each(function() {
           this.style[prop] = val;
         });
         break;
@@ -47,12 +47,12 @@
   };
 
   $.fn.show = function() {
-    $(this.selector).css('display','block');
+    this.css('display','block');
     return this;
   };
 
   $.fn.hide = function() {
-    $(this.selector).css('display','none');
+    this.css('display','none');
     return this;
   };
 
