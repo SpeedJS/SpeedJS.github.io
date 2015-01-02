@@ -6,7 +6,7 @@ JavaScript library that replicates functionality of jQuery, without the bloat.
 
 #### Todo List
 
-- [x] Integrate Require Module loader
+- [] Remake Require Module loader
 - [x] Start Selectors
 	- [x] ID Selector
 	- [x] Class Selector
@@ -18,19 +18,20 @@ JavaScript library that replicates functionality of jQuery, without the bloat.
 	- [x] css()
 	- [x] show()
 	- [x] hide()
-	- [x] toggle()
-	- [x] addClass()
-	- [x] removeClass()
-	- [x] toggleClass()
-	- [x] append()
-	- [x] appendTo()
-	- [x] prepend()
-	- [x] prependTo()
-	- [x] copy()
-	- [x] html()
-	- [x] val()
-	- [x] text()
-	- [x] attr()
-	- [x] removeAttr()
-	- [x] prop()
+	- [x] $.extend()
+	- [] toggle()
+	- [] addClass()
+	- [] removeClass()
+	- [] toggleClass()
+	- [] append()
+	- [] appendTo()
+	- [] prepend()
+	- [] prependTo()
+	- [] copy()
+	- [] html()
+	- [] val()
+	- [] text()
+	- [] attr()
+	- [] removeAttr()
+	- [] prop()
 	- [ ] More to come...
