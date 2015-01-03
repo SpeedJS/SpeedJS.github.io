@@ -14,15 +14,16 @@ JavaScript library that replicates functionality of jQuery, without the bloat.
 	- [x] Tagname Selector
 	- [x] Name Selector
 - [x] Start Built in Functions
-	- [x] each()
+	- [x] addClass()
 	- [x] css()
-	- [x] show()
-	- [x] hide()
+	- [x] each()
 	- [x] $.extend()
-	- [ ] toggle()
-	- [ ] addClass()
-	- [ ] removeClass()
-	- [ ] toggleClass()
+	- [x] hasClass()
+	- [x] hide()
+	- [x] is()
+	- [x] removeClass()
+	- [x] show()
+	- [x] toggleClass()
 	- [ ] append()
 	- [ ] appendTo()
 	- [ ] prepend()
