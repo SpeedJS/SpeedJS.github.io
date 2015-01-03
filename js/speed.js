@@ -42,10 +42,24 @@
 
   $.fn.addClass = function(cname) {
     this.each(function() {
-      if(this.classList)
-        this.classList.add(cname);
-      else
-        this.className += ' ' + cname;
+      if(cname.indexOf(' ')) {
+        var classes = cname.split(' ');
+        var i;
+        if(this.classList) {
+          for(i in classes) {
+            this.classList.add(classes[i]);
+          }
+        }else {
+          for(i in classes) {
+            this.className += ' ' + classes[i];
+          }
+        }
+      }else{
+        if(this.classList)
+          this.classList.add(cname);
+        else
+          this.className += ' ' + cname;
+      }
     });
     return this;
   };
