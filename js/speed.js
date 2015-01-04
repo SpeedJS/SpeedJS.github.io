@@ -64,6 +64,25 @@
     return this;
   };
 
+  $.ajax = $.fn.ajax = function(method, url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+      if(xhr.readyState < 4) {
+        return;
+      }
+
+      if(xhr.status !== 200) {
+        return;
+      }
+
+      if(xhr.readyState === 4) {
+        callback(xhr);
+      }
+    };
+    xhr.open(method, url, true);
+    xhr.send('');
+  };
+
   $.fn.css = function(prop, val) {
     val = typeof val !== 'undefined' ? val : null;
     switch(typeof(prop)){
