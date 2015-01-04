@@ -15,7 +15,9 @@ JavaScript library that replicates functionality of jQuery, without the bloat.
 	- [x] Name Selector
 - [x] Start Built in Functions
 	- [x] addClass()
+	- [x] after()
 	- [x] $.ajax()
+	- [x] before()
 	- [x] css()
 	- [x] each()
 	- [x] $.extend()
@@ -25,15 +27,4 @@ JavaScript library that replicates functionality of jQuery, without the bloat.
 	- [x] removeClass()
 	- [x] show()
 	- [x] toggleClass()
-	- [ ] append()
-	- [ ] appendTo()
-	- [ ] prepend()
-	- [ ] prependTo()
-	- [ ] copy()
-	- [ ] html()
-	- [ ] val()
-	- [ ] text()
-	- [ ] attr()
-	- [ ] removeAttr()
-	- [ ] prop()
 	- [ ] More to come...
