@@ -1,6 +1,6 @@
-(function() {
+(function(speedjs) {
 
-  var $ = function (selector) {
+  var $ = speedjs = function (selector) {
     return new init(selector);
   };
 
@@ -228,4 +228,4 @@
 
   window.$ = $;
 
-})();
+})(speedjs);
