@@ -15,6 +15,7 @@ JavaScript library that replicates functionality of jQuery, without the bloat.
 	- [x] Name Selector
 - [x] Start Built in Functions
 	- [x] addClass()
+	- [x] $.ajax()
 	- [x] css()
 	- [x] each()
 	- [x] $.extend()
