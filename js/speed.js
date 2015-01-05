@@ -34,12 +34,6 @@
     }else{
       this.elements.push(elements);
     }
-
-    if(this.elements.length === 0) {
-      console.log([]);
-    }else {
-      console.dirxml(this.elements);
-    }
   };
 
   init.fn = init.prototype = $.fn;
@@ -227,9 +221,5 @@
   };
 
   window.$ = $;
-
-  var speedjs = $;
-
-  window.speedjs = speedjs;
 
 })();
