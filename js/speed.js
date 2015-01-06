@@ -38,6 +38,8 @@
 
   init.fn = init.prototype = $.fn;
 
+  window.$ = $;
+
   $.fn.addClass = function(cname) {
     this.each(function() {
       if(cname.indexOf(' ')) {
@@ -219,7 +221,5 @@
     this.css('display','block');
     return this;
   };
-
-  window.$ = $;
 
 })();
